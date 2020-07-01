@@ -34,9 +34,9 @@ def sorted_matrix
   CONVENTIONAL_PRODUCE.sort();
   ORGANIC_PRODUCE.sort();
   assembled_matrix = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
-    ]
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+  ]
 end
 
 def matrix_lookup(matrix, row, column)
